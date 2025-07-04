@@ -23,6 +23,8 @@ const printOutCatBreed = data => {
 };
 
 // we try to get the return value
-breedDetailsFromFile('Bombay', printOutCatBreed);
+
 
 //console.log('Return Value: ', bombay); // => will NOT print out details, instead we will see undefined!
+
+module.exports = breedDetailsFromFile;
